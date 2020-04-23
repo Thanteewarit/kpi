@@ -1,0 +1,27 @@
+{
+    "remotePath": "./",
+    "host": "27.254.85.199",
+    "username": "psscom",
+    "password": "5V]Vj63xLnc-0L",
+    "port": 2121,
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": false,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "agent": null,
+    "allow": [],
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store"
+    ],
+    "generatedFiles": {
+        "extensionsToInclude": [
+            ""
+        ],
+        "path": ""
+    }
+}

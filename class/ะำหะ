@@ -1,0 +1,14 @@
+<?php 
+session_start();
+header('Content-Type: text/html; charset=utf-8');
+include("class.php");
+
+if($_POST['Mode']=="addHospital")
+{
+    $table="tb_hospital";
+    $column="hospital_id, hospital_NameTh, hospital_NameEn, hospital_Code";
+    $valuei="NULL,'".$_POST['hospital_NameTh']."', '".$_POST['hospital_NameEn']."','".$_POST['hospital_Code']."' ";
+    oInsert($table,$column,$valuei);
+    echo "<script>alert('ทำรายการสำเร็จ');history.back();</script>";
+}
+?>
