@@ -52,7 +52,7 @@
 
             <div class="pcoded-main-container">
                 <div class="pcoded-wrapper">
-                    <?php include("inc-menu.php");?>
+                    <?php include("inc-menu.php");?> 
                     <div class="pcoded-content">
                         <div class="pcoded-inner-content">
                             <div class="main-body">
